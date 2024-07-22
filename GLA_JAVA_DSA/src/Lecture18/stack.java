@@ -2,8 +2,8 @@ package Lecture18;
 
 public class stack {
 	
-	private int arr[];
-	private int top = -1;
+	protected int arr[];
+	protected int top = -1;
 	
 	public stack() {
 		arr = new int[5];
